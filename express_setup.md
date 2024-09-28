@@ -16,6 +16,7 @@ npm install morgan  # Logger
 npm install cors  # CORS
 npm install static  # Static files
 npm install dotenv  # Environment variables. Don't forget to add ".env" to your .gitignore
+npm install mongoose  # Application data modeling
 ```
 
 ### Modify "scripts" to shorten some commands:
