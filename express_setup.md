@@ -15,6 +15,7 @@ npm install --save-dev nodemon  # Avoid manual server restarts
 npm install morgan  # Logger
 npm install cors  # CORS
 npm install static  # Static files
+npm install dotenv  # Environment variables. Don't forget to add ".env" to your .gitignore
 ```
 
 ### Modify "scripts" to shorten some commands:
