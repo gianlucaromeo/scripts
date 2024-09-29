@@ -35,6 +35,8 @@ npx eslint --init  # Initialize a default ESlint configuration
 # code runs on: browser
 # install them now: yes
 # package manager: npm
+
+npx eslint index.js  # Inspect index.js with ESlint
 ```
 
 ### Modify "scripts" to shorten some commands
