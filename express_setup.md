@@ -32,7 +32,7 @@ npx eslint --init  # Initialize a default ESlint configuration
 # moudles type: commonjs
 # framework: none
 # typescript or javascript: javascript
-# code runs on: browser
+# code runs on: node
 # install them now: yes
 # package manager: npm
 
