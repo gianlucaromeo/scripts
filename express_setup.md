@@ -1,4 +1,5 @@
 ## Setup node.js and Express
+Configuration for setting up a backend for the [Full Stack Open](https://fullstackopen.com/en/) course.
 
 ### Setup project
 ```bash
@@ -11,15 +12,31 @@ npm init
 touch index.js
 
 npm install express  # Express
-npm install --save-dev nodemon  # Avoid manual server restarts
 npm install morgan  # Logger
 npm install cors  # CORS
 npm install static  # Static files
 npm install dotenv  # Environment variables. Don't forget to add ".env" to your .gitignore
 npm install mongoose  # Application data modeling
+
+npm install --save-dev nodemon  # Avoid manual server restarts
+npm install eslint @eslint/js --save-dev  # ESlint
 ```
 
-### Modify "scripts" to shorten some commands:
+### Start ESlint configuration
+```bash
+npx eslint --init  # Initialize a default ESlint configuration
+
+# Answers 👇
+# use: syntax
+# moudles type: commonjs
+# framework: none
+# typescript or javascript: javascript
+# code runs on: browser
+# install them now: yes
+# package manager: npm
+```
+
+### Modify "scripts" to shorten some commands
 ```json
 "scripts": {
    "start": "node index.js",
