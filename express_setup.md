@@ -20,6 +20,7 @@ npm install mongoose  # Application data modeling
 
 npm install --save-dev nodemon  # Avoid manual server restarts
 npm install eslint @eslint/js --save-dev  # ESlint
+npm install --save-dev @stylistic/eslint-plugin-js  # Style-related rules
 ```
 
 ### Start ESlint configuration
