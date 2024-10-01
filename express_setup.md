@@ -1,5 +1,6 @@
 ## Setup node.js and Express
 Configuration for setting up a backend for the [Full Stack Open](https://fullstackopen.com/en/) course.
+<br/>
 
 ### Setup project
 ```bash
@@ -34,6 +35,7 @@ npm install express morgan cors static dotenv mongoose
 # Or:
 npm install --save-dev nodemon eslint @stylistic/eslint-plugin-js
 ```
+<br/>
 
 ### Start ESlint configuration
 ```bash
@@ -50,6 +52,7 @@ npx eslint --init  # Initialize a default ESlint configuration
 
 npx eslint index.js  # Inspect index.js with ESlint
 ```
+<br/>
 
 ### Modify "scripts" to shorten some commands
 ```json
@@ -62,6 +65,7 @@ npx eslint index.js  # Inspect index.js with ESlint
    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
 },
 ```
+<br/>
 
 ### Edit eslint.config.mjs
 ```javascript
@@ -116,6 +120,7 @@ export default [
   },
 ]
 ```
+<br/>
 
 ### Start server and push changes
 ```bash
@@ -128,4 +133,24 @@ npm run dev
 # Or, both build and deploy.
 # If configured with Render, it automatically deploys the changes.
 npm run deploy:full
+```
+<br/>
+
+### Good node.js structure
+Example of a notes app:
+```bash
+├── index.js
+├── app.js
+├── dist
+│   └── ...
+├── controllers
+│   └── notes.js
+├── models
+│   └── note.js
+├── package-lock.json
+├── package.json
+├── utils
+│   ├── config.js
+│   ├── logger.js
+│   └── middleware.js  
 ```
