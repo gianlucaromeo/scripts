@@ -8,19 +8,31 @@ npm init
 
 # Then, follow the commands the terminal asks for setting up the package
 
+# Setup .gitignore
+touch .gitignore
+echo "node_modules" >> .gitignore
+echo ".env" >> .gitignore
+
 # Create index.js
 touch index.js
 
-npm install express  # Express
-npm install morgan  # Logger
-npm install cors  # CORS
-npm install static  # Static files
-npm install dotenv  # Environment variables. Don't forget to add ".env" to your .gitignore
-npm install mongoose  # Application data modeling
+# npm install express  # Express
+# npm install morgan  # Logger
+# npm install cors  # CORS
+# npm install static  # Static files
+# npm install dotenv  # Environment variables. Don't forget to add ".env" to your .gitignore
+# npm install mongoose  # Application data modeling
+#
+# Or:
+npm install express morgan cors static dotenv mongoose
 
-npm install --save-dev nodemon  # Avoid manual server restarts
-npm install eslint @eslint/js --save-dev  # ESlint
-npm install --save-dev @stylistic/eslint-plugin-js  # Style-related rules
+
+# npm install --save-dev nodemon  # Avoid manual server restarts
+# npm install eslint @eslint/js --save-dev  # ESlint
+# npm install --save-dev @stylistic/eslint-plugin-js  # Style-related rules
+#
+# Or:
+npm install --save-dev nodemon eslint @stylistic/eslint-plugin-js
 ```
 
 ### Start ESlint configuration
