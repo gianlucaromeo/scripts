@@ -59,7 +59,7 @@ npx eslint index.js  # Inspect index.js with ESlint
 "scripts": {
    "start": "node index.js",
    "dev": "nodemon index.js",
-   "test": "echo \"Error: no test specified\" && exit 1",
+   "test": "node --test",
    "lint": "eslint .",
    "build:ui": "rm -rf dist && cd ../frontend && npm run build && cp -r dist ../backend",
    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
