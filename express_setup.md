@@ -30,11 +30,12 @@ npm install express morgan cors static dotenv mongoose cross-env
 
 
 # npm install --save-dev nodemon  # Avoid manual server restarts
-# npm install eslint @eslint/js --save-dev  # ESlint
+# npm install --save-dev eslint @eslint/js  # ESlint
 # npm install --save-dev @stylistic/eslint-plugin-js  # Style-related rules
+# npm install --save-dev supertest  # Testing
 #
 # Or:
-npm install --save-dev nodemon eslint @stylistic/eslint-plugin-js
+npm install --save-dev nodemon eslint @stylistic/eslint-plugin-js supertest
 ```
 <br/>
 
