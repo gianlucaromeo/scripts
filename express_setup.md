@@ -157,3 +157,11 @@ Example of a notes app:
 │   ├── logger.js
 │   └── middleware.js  
 ```
+<br/>
+
+### Testing - useful commands
+```shell
+npm test -- --test-only
+npm test -- tests/your_file.test.js
+npm test -- --test-name-pattern="the name of your test"
+```
