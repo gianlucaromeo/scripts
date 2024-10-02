@@ -23,9 +23,10 @@ touch index.js
 # npm install static  # Static files
 # npm install dotenv  # Environment variables. Don't forget to add ".env" to your .gitignore
 # npm install mongoose  # Application data modeling
-#
+# npm install cross-env  # Run some commands on Windows
+# 
 # Or:
-npm install express morgan cors static dotenv mongoose
+npm install express morgan cors static dotenv mongoose cross-env
 
 
 # npm install --save-dev nodemon  # Avoid manual server restarts
@@ -57,9 +58,9 @@ npx eslint index.js  # Inspect index.js with ESlint
 ### Modify "scripts" to shorten some commands
 ```json
 "scripts": {
-   "start": "NODE_ENV=production node index.js",
-   "dev": "NODE_ENV=development nodemon index.js",
-   "test": "NODE_ENV=test node --test",
+   "start": "cross-env NODE_ENV=production node index.js",
+   "dev": "cross-env NODE_ENV=development nodemon index.js",
+   "test": "cross-env NODE_ENV=test node --test",
    "lint": "eslint .",
    "build:ui": "rm -rf dist && cd ../frontend && npm run build && cp -r dist ../backend",
    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push"
