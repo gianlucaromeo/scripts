@@ -24,9 +24,10 @@ touch index.js
 # npm install dotenv  # Environment variables. Don't forget to add ".env" to your .gitignore
 # npm install mongoose  # Application data modeling
 # npm install cross-env  # Run some commands on Windows
+# npm install express-async-errors  # Avoid try-catch for async operations
 # 
 # Or:
-npm install express morgan cors static dotenv mongoose cross-env
+npm install express morgan cors static dotenv mongoose cross-env express-async-errors
 
 
 # npm install --save-dev nodemon  # Avoid manual server restarts
