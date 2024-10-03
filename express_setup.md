@@ -17,24 +17,24 @@ echo ".env" >> .gitignore
 # Create index.js
 touch index.js
 
-# npm install express  # Express
-# npm install morgan  # Logger
-# npm install cors  # CORS
-# npm install static  # Static files
-# npm install dotenv  # Environment variables. Don't forget to add ".env" to your .gitignore
-# npm install mongoose  # Application data modeling
-# npm install cross-env  # Run some commands on Windows
+# npm install express               # Express
+# npm install morgan                # Logger
+# npm install cors                  # Cross-origin requests and data transfers
+# npm install static                # Static files
+# npm install dotenv                # Environment variables
+# npm install mongoose              # Application data modeling
+# npm install cross-env             # Run some commands on Windows
 # npm install express-async-errors  # Avoid try-catch for async operations
-# npm install bcrypt  # Passwords algorithms
+# npm install bcrypt                # Passwords algorithms
 # 
 # Or:
 npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt
 
 
-# npm install --save-dev nodemon  # Avoid manual server restarts
-# npm install --save-dev eslint @eslint/js  # ESlint
+# npm install --save-dev nodemon                      # Avoid manual server restarts
+# npm install --save-dev eslint @eslint/js            # ESlint
 # npm install --save-dev @stylistic/eslint-plugin-js  # Style-related rules
-# npm install --save-dev supertest  # Testing
+# npm install --save-dev supertest                    # Testing
 #
 # Or:
 npm install --save-dev nodemon eslint @stylistic/eslint-plugin-js supertest
