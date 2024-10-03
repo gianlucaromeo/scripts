@@ -26,9 +26,10 @@ touch index.js
 # npm install cross-env             # Run some commands on Windows
 # npm install express-async-errors  # Avoid try-catch for async operations
 # npm install bcrypt                # Passwords algorithms
+# npm install jsonwebtoken          # JSON web token
 # 
 # Or:
-npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt
+npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt jsonwebtoken
 
 
 # npm install --save-dev nodemon                      # Avoid manual server restarts
