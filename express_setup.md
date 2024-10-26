@@ -27,9 +27,11 @@ touch index.js
 # npm install express-async-errors  # Avoid try-catch for async operations
 # npm install bcrypt                # Passwords algorithms
 # npm install jsonwebtoken          # JSON web token
-# 
+# npm install multer                # Middleware for handling multipart/form-data, useful for files uploads
+# npm install aws-sdk               # AWS
+#
 # Or:
-npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt jsonwebtoken
+npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt jsonwebtoken multer aws-dsk
 
 
 # npm install --save-dev nodemon                      # Avoid manual server restarts
