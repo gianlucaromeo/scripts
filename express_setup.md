@@ -30,9 +30,10 @@ touch index.js
 # npm install multer                # Middleware for handling multipart/form-data, useful for files uploads
 # npm install aws-sdk               # AWS
 # npm install nodemailer            # Emails
+# npm install uuidv4                # UUID v4
 #
 # Or:
-npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt jsonwebtoken multer aws-dsk nodemailer
+npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt jsonwebtoken multer aws-dsk nodemailer uuidv4
 
 
 # npm install --save-dev nodemon                      # Avoid manual server restarts
