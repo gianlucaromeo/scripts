@@ -1,5 +1,5 @@
 ## Setup node.js and Express
-Configuration for setting up a backend for the [Full Stack Open](https://fullstackopen.com/en/) course.
+Configuration for setting up a node.js & express backend, with some common packages.
 <br/>
 
 ### Setup project
@@ -29,9 +29,10 @@ touch index.js
 # npm install jsonwebtoken          # JSON web token
 # npm install multer                # Middleware for handling multipart/form-data, useful for files uploads
 # npm install aws-sdk               # AWS
+# npm install nodemailer            # Emails
 #
 # Or:
-npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt jsonwebtoken multer aws-dsk
+npm install express morgan cors static dotenv mongoose cross-env express-async-errors bcrypt jsonwebtoken multer aws-dsk nodemailer
 
 
 # npm install --save-dev nodemon                      # Avoid manual server restarts
